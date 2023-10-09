@@ -47,7 +47,7 @@ const HelpfulLinks = () => {
               شده و داخل سایت ثبت نام کنید.
               <br /> سپس برای دیدن دوره های آموزشی از
               <a
-                href="https://codeyad.com/"
+                href="https://codeyad.com/coursePanel/2003/"
                 target="_blank"
                 className={classes.links}
               >
@@ -71,7 +71,9 @@ const HelpfulLinks = () => {
             <div className={classes.circle}></div>
             <p>{teachedFile.title}:</p>
             <p
-              onClick={() => downloadFile(teachedFile.file)}
+              onClick={() =>
+                downloadFile(teachedFile.fileName, teachedFile.file)
+              }
               className={classes.links}
             >
               کلیک کنید

@@ -8,7 +8,7 @@ import HelpfulLinks from "./components/HelpfulLinks";
 import challengesInfo from "./assets/data files/challengesInfo";
 
 const App = () => {
-  const [activePage, setActivePage] = useState(2);
+  const [activePage, setActivePage] = useState(0);
 
   return (
     <>

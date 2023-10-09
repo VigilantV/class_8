@@ -1,7 +1,7 @@
-const downloadFile = (file) => {
+const downloadFile = (fileName, file) => {
     const aTag = document.createElement("a");
     aTag.href = file;
-    aTag.setAttribute("download", "Mehrab_Gheibi_Resume");
+    aTag.setAttribute("download", fileName);
     document.body.appendChild(aTag);
     aTag.click();
     aTag.remove();
