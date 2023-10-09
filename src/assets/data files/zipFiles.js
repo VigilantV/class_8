@@ -1,5 +1,7 @@
-import test_1 from "../zip files/test_1.zip";
+import in_class_1 from "../zip files/in_class_1.zip";
 
-const zipFiles = [{ title: "فایل اول", fileName: "test_1", file: test_1 }];
+const zipFiles = [
+  { title: "فایل اول", fileName: "in_class_1", file: in_class_1 },
+];
 
 export default zipFiles;
