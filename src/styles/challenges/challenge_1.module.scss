@@ -2,14 +2,20 @@
   direction: rtl;
   display: flex;
   justify-content: space-between;
-  margin: 14vw 5vw 1vw 35vw;
+  margin: 14vw 5vw 1vw 5vw;
 
   h2{
     font-size: 1.6vw;
   }
 
+  p{
+    margin-top: 2vw;
+    font-size: 1.3vw;
+    line-height: 1.8vw;
+  }
+
   img{
-    width: 20vw;
-    height: 40vw;
+    width: 65vw;
+    height: 20vw;
   }
 }
