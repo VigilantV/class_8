@@ -1,21 +1,29 @@
+@use "../global/variables.module.scss" as *;
+
 .question {
   direction: rtl;
   display: flex;
   justify-content: space-between;
   margin: 14vw 5vw 1vw 5vw;
 
-  h2{
+  h2 {
     font-size: 1.6vw;
   }
 
-  p{
+  p {
     margin-top: 2vw;
     font-size: 1.3vw;
     line-height: 1.8vw;
   }
 
-  img{
+  img {
     width: 65vw;
     height: 20vw;
   }
+}
+
+.links {
+  text-decoration: none;
+  color: $pinkyOrange;
+  cursor: pointer;
 }

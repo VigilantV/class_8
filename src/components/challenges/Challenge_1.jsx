@@ -1,3 +1,6 @@
+import downloadFile from "../common/downloadFile";
+import solution_1 from "../../assets/solutions/solution_1.zip";
+
 import classes from "../../styles/challenges/challenge_1.module.scss";
 import challenge_1 from "../../assets/images/challenges/challenge_1.jpg";
 
@@ -11,6 +14,15 @@ const Challenge_1 = () => {
           های خواسته شده، از متغیری که در آن سن را ذخیره کرده اید برای انجام
           محاسبات خواسته شده استفاده کنید.
         </p>
+        <div style={{ display: "flex", gap: "1vw" }}>
+          <p>پاسخ چالش اول:</p>
+          <p
+            onClick={() => downloadFile("solution_1", solution_1)}
+            className={classes.links}
+          >
+            کلیک کنید
+          </p>
+        </div>
       </div>
       <img src={challenge_1} />
     </div>
