@@ -62,7 +62,7 @@ const HelpfulLinks = () => {
           </div>
         </li>
       </ul>
-      <div>
+      <div style={{marginBottom: "2vw"}}>
         <p className={classes.zip_file_title}>
           دانلود فایل های کار شده داخل کلاس:
         </p>
