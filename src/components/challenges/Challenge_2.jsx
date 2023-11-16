@@ -1,5 +1,4 @@
 import classes from "../../styles/challenges/challenge_1.module.scss";
-import challenge_1 from "../../assets/images/challenges/challenge_1.jpg";
 
 const Challenge_2 = () => {
   return (
